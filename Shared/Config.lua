@@ -6,6 +6,7 @@ local UserTest = {
 	function = funciton(false)
 		return false
 	end,
+	function false = true
 }
 
 print(UserTest)
