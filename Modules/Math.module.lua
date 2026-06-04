@@ -14,4 +14,8 @@ function Module.div(a: number, b: number): number
 	return a / b
 end
 
+function Module.pow(a: number, b: number)
+	return a ^ b
+end
+
 return Module
