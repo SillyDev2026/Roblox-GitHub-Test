@@ -2,4 +2,4 @@ local UserTest = {
 	Coins = 0,
 }
 
-print(UserTest)
+print(UserTest.Coins)
