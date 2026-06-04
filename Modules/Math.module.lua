@@ -1,5 +1,13 @@
 local Module = {}
-function Module.new(wow)
-    return wow
+
+function Module.add(a: number, b: number): number
+	return a + b
 end
+
+function Module.sub(a: number, b: number): number
+	local result = Module.add(a, -b)
+	if result < 0 then result = 0 end
+	return result
+end
+
 return Module

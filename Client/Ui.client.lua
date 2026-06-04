@@ -1,1 +1,5 @@
-print(1234)
+local UserTest = {
+	Coins = 0,
+}
+
+print(UserTest)
