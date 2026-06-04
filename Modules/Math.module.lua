@@ -10,4 +10,8 @@ function Module.sub(a: number, b: number): number
 	return result
 end
 
+function Module.div(a: number, b: number): number
+	return a / b
+end
+
 return Module
