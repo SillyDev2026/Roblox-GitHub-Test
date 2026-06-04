@@ -1,25 +1,11 @@
-local Module = {}
+local UserTest = {
+	Coins = 0,
+	Rebirths = 0,
+	Prestiges = 0,
+	Wow = true,
+	function = funciton(false)
+		return false
+	end,
+}
 
-function Module.add(a: number, b: number): number
-	return a + b
-end
-
-function Module.sub(a: number, b: number): number
-	local result = Module.add(a, -b)
-	if result < 0 then result = 0 end
-	return result
-end
-
-function Module.div(a: number, b: number): number
-	return a / b
-end
-
-function Module.pow(a: number, b: number)
-	return a ^ b
-end
-
-function Module.mul(a: number, b: number): number
-	return a * b
-end
-
-return Module
+print(UserTest)
