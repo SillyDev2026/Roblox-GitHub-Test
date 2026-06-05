@@ -1,2 +1,6 @@
 local Replicated = game:GetService('ReplicatedStorage')
-print(`wow`)
+local ReplicatedStorage = game:GetService('ReplicatedStorage')
+local Modules = ReplicatedStorage.Modules
+local Mathmodule = require(Modules.Math.module)
+
+print(Mathmodule.add(11234, 3))
